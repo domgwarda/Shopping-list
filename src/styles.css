@@ -1,11 +1,21 @@
 html {
-    background-color: rgb(69, 92, 39);
-    font-family: "Cormorant Garamond", serif;
+    background-color: rgb(63, 86, 168);
+    /* font-family: "Cormorant Garamond", serif; */
 }
 
 .container {
     display: grid;
     border: 5px solid red;
     color: aliceblue;
+    text-align: center;
+}
+
+.products__container {
+    display: grid;
+    text-align: center;
+}
+
+.empty__list {
+    list-style-type: none ;
     text-align: center;
 }

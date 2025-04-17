@@ -18,15 +18,30 @@
         <div class=container>
             <div class="container__header">
                 <h2>Your Shopping List</h2>
+                <p>type product you want to buy today!</p>
             </div>
 
             <form method="post" class="add__product__form" id="add__product__form" >
-                <input class="form__product" id="product"
-                    type="text" name="product" 
-                    placeholder="What do you want to buy today?" required />  
+                <input class="form__product" id="product" type="text" name="product" required />  
                 <button type="submit" class="add-item__element add-item__submit">
-                    Add
+                    Add product
                 </button>
             </form>
+
+            <div class="products__container" id="products__container">
+                <div class="products-header__container">
+                    <h2>
+                        <span id="count">0</span> Products Remaining
+                    </h2>
+                </div>
+
+                <ul class="products__list" id="products__list">
+                    <li class="empty__list">Your shopping list is empty!</li>
+                </ul>
+
+                <button type="submit" class="clear__all__products" id="clear__all__products">
+                        Clear all
+                </button>
+            </div>
     </body>
 </html>
