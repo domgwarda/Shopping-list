@@ -1,0 +1,11 @@
+html {
+    background-color: rgb(69, 92, 39);
+    font-family: "Cormorant Garamond", serif;
+}
+
+.container {
+    display: grid;
+    border: 5px solid red;
+    color: aliceblue;
+    text-align: center;
+}
