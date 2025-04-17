@@ -10,14 +10,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
-    <body>
         <div class=container>
-            <div class="container__header"><h2>Shopping List</h2></div>
-            <form method="post" class="form">
-                <div class="form__name__container">
-                    <input class="form__name__input" id="name"
-                        type="text" name="first-name" placeholder="What do you want to buy today?" required />  
-            </form>
+            <div class="container__header">
+                <h2>Your Shopping List</h2>
+            </div>
+            <div class="main">
+                <section>
+                    <form method="post" class="add__product">
+                        <div class="form__name__container">
+                            <input class="form__product" id="product"
+                                type="text" name="product" placeholder="What do you want to buy today?" required />  
+                            <button type="submit" class="add-item__element add-item__submit">
+                                Add
+                            </button>
+                    </form>
+                </section>
+
+
+
+
+
+            </div>
+
+
         </div>
     </body>
 </html>
