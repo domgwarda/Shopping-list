@@ -1,0 +1,24 @@
+{
+  "name": "shopping_list",
+  "version": "1.0.0",
+  "description": "Shopping list: remember what you need to buy today!",
+  "keywords": [
+    "Shopping",
+    "list"
+  ],
+  "homepage": "https://github.com/domgwarda/Shopping-list#readme",
+  "bugs": {
+    "url": "https://github.com/domgwarda/Shopping-list/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domgwarda/Shopping-list.git"
+  },
+  "license": "ISC",
+  "author": "Dominika Gwarda",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
